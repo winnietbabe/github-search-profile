@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* background: rgb(226,18,15);
+background: linear-gradient(
+    197deg,
+ rgba(226,18,15,1) ,
+  rgba(240,114,16,1) ,
+  rgba(241,175,6,1) ,
+ rgba(240,255,0,1) 80%); */
+
+
+  background: linear-gradient( 197deg,
+  rgba(240,255,0,1) 0%,
+  rgba(241,175,6,1) 50%,
+  rgba(240,114,16,1) 0%,
+  rgba(226,18,15,1)  80%);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+input{
+    height: 40px;
+    width: 25em;
+    border-radius: 5px;
+    border: none;
+    text-align: center;
+}
+
+button{
+    height: 40px;
+    width: 5em;
+    border-radius: 4px;
+    border: none;
+}
+
+
+
+.profileCard{
+    /* padding: 20px; */
+    /* height: 30em; */
+    margin-top: 20px;
+    width: 100%;
+    max-width: 480px;
+    border-radius: 4px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+}
+
+.profileCard .userCard{
+    width: 100%;
+    max-width: 480px;
+    height: 360px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: whitesmoke;
+    
+}
+
+
+.userCard img{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    /* object-fit: contain; */
+}
+
+.userCard .status{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+}
+
+.status .statusBar{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-left: -30px;
+    margin: 6px 20px;
+}
+
+h3{
+    font-size: 2.5em;
+}
+
+.statusBar span{
+    font-size: 20px;
+}
+
+.statusBar i{
+    margin-right: 20px;
+    font-size: 18px;
+    color: darkslategray;
+}
